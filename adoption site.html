@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<head>
+  <script src="/assets/jquery.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Michroma&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    header{
+      background:rgba(98, 137, 171, 1);
+      border: 5px solid white;
+      padding:10px 50px 2px 50px;
+
+      }
+    body {
+      font-family: helvetica, sans-serif;
+      margin: 0 auto;
+
+      background:rgba(192, 178, 153, 0.82);
+      background-size:cover
+    }
+    div {
+      height: 600px;
+      background-size: cover;
+      position:relative;
+      margin: 40px auto;
+      background-position:10%;
+      max-width: 600px;
+
+
+
+    }
+    h1 {
+      font-family: 'Love Ya Like A Sister', cursive;
+      text-align: center;
+      font-size: 75px;
+      color: #aaaaaa;
+      margin: 60px 0 0 0;
+    }
+    h2 {
+      text-align: center;
+      color: #bbbbbb;
+      margin: 0px 0 70px 0;
+    }
+    p {
+      color: black);
+      background: black;
+      background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      background: -webkit-linear-gradient(bottom, rgba(192, 178, 153, 0.82), rgba(255,255,255,.4));
+      background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      padding: 10px;
+      line-height: 28px;
+      text-align: justify;
+      position: absolute;
+      bottom: 0;
+      margin: 0;
+      height: 30px;
+      transition: height .5s;
+      -webkit-transition: height .5s;
+      -moz-transition: height .5s;
+      font-family: 'Michroma', sans-serif;
+    }
+
+    small {
+      opacity: 0;
+
+    }
+    span{
+      color:rgba(13, 16, 55, 1);
+      }
+
+
+
+    .show-description p {
+      height: 300px;
+    }
+
+    .show-description small {
+      opacity: 1;
+    }
+
+    .first{
+      background-image: url("https://images.unsplash.com/photo-1562771968-1e10d4eee4d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhbG1hdGlvbnxlbnwwfHwwfHx8MA%3D%3D");
+    }
+    .second{
+      background-image: url("https://images.unsplash.com/photo-1552053831-71594a27632d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHB1cHB5JTIwaW4lMjBoYW5kfGVufDB8fDB8fHww");
+    }
+    .dessert{
+      background-image: url("https://images.unsplash.com/photo-1592387739756-119ad9f668fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJsYWNrJTIwYW5kJTIwd2hpdGUlMjBzcG90c3xlbnwwfHwwfHx8MA%3D%3D");
+    }
+    .age {
+      float: right;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 50px;
+        margin-top: 20px;
+        line-height: 40px;
+      }
+      h2 {
+        font-size: 20px;
+        margin: 20px 0 30px 0;
+      }
+      div {
+        margin: 20px 12px 0 12px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 24px;
+      }
+      small {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Fido and Friends</h1>
+    <h2>a New York City animal rescue</h2>
+  </header>
+  <div class="first">
+    <p>
+      Rocky <span class="age">Puppy</span><br />
+      <small
+        >Meet Rocky, the adorable Dalmatian puppy ready to steal your heart!
+        With his distinctive coat of black spots and playful energy, Rocky is
+        the epitome of charm and curiosity. This spunky pup loves nothing more
+        than bounding around the yard, exploring new sights and smells, and
+        snuggling up close for some well-deserved belly rubs. Adopt Rocky today
+        and let the adventures begin!
+      </small>
+    </p>
+  </div>
+
+  <div class="second">
+    <p>
+      Sunny <span class="age">Adult</span><br />
+      <small
+        >Meet Sunny, the epitome of a golden-hearted companion! With his
+        luscious golden coat and warm, friendly eyes, Sunny is a beacon of joy
+        and affection. This gentle giant thrives on human connection and is
+        always eager to shower his family with love and loyalty. Whether it's a
+        game of fetch in the park or a cozy cuddle session on the couch, Sunny
+        is happiest when he's by your side, spreading happiness wherever he
+        goes. His friendly demeanor makes him the perfect fit for families of
+        all ages, and his easygoing nature ensures he'll quickly become
+        everyone's best friend. If you're ready to welcome endless sunshine into
+        your life, adopt Sunny today and make every day brighter with his
+        presence!</small
+      >
+    </p>
+  </div>
+
+  <div class="dessert">
+    <p>
+      Whiskers <span class="age">Adult</span><br />
+      <small
+        >Meet Whiskers, a charming feline looking for a forever home! With her
+        sleek coat and mesmerizing green eyes, Whiskers is sure to capture your
+        heart from the moment you meet her. This playful yet affectionate cat
+        enjoys curling up in sunny spots for long naps and chasing after feather
+        toys with enthusiasm. Whether you're seeking a cuddly companion to
+        lounge with on lazy afternoons or a spirited friend to liven up your
+        home, Whiskers is ready to be the purr-fect addition to your family.
+        Don't miss out on the opportunity to give this lovely cat the loving
+        home she deserves – adopt Whiskers today.</small
+      >
+    </p>
+  </div>
+
+  <script>
+    $("div").on("click", function () {
+      $(this).toggleClass("show-description");
+    });
+  </script>
+</body>
